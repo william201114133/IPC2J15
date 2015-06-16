@@ -1,0 +1,15 @@
+c:\users\william\documents\visual studio 2013\Projects\Biblioteca\Biblioteca\bin\Debug\Biblioteca.exe.config
+c:\users\william\documents\visual studio 2013\Projects\Biblioteca\Biblioteca\bin\Debug\Biblioteca.exe
+c:\users\william\documents\visual studio 2013\Projects\Biblioteca\Biblioteca\bin\Debug\Biblioteca.pdb
+c:\users\william\documents\visual studio 2013\Projects\Biblioteca\Biblioteca\obj\Debug\Biblioteca.csprojResolveAssemblyReference.cache
+c:\users\william\documents\visual studio 2013\Projects\Biblioteca\Biblioteca\obj\Debug\Biblioteca.Devolucion.resources
+c:\users\william\documents\visual studio 2013\Projects\Biblioteca\Biblioteca\obj\Debug\Biblioteca.Form1.resources
+c:\users\william\documents\visual studio 2013\Projects\Biblioteca\Biblioteca\obj\Debug\Biblioteca.IngresaLibro.resources
+c:\users\william\documents\visual studio 2013\Projects\Biblioteca\Biblioteca\obj\Debug\Biblioteca.prestamo.resources
+c:\users\william\documents\visual studio 2013\Projects\Biblioteca\Biblioteca\obj\Debug\Biblioteca.Properties.Resources.resources
+c:\users\william\documents\visual studio 2013\Projects\Biblioteca\Biblioteca\obj\Debug\Biblioteca.reservacion.resources
+c:\users\william\documents\visual studio 2013\Projects\Biblioteca\Biblioteca\obj\Debug\Biblioteca.top5.resources
+c:\users\william\documents\visual studio 2013\Projects\Biblioteca\Biblioteca\obj\Debug\Biblioteca.verlibros.resources
+c:\users\william\documents\visual studio 2013\Projects\Biblioteca\Biblioteca\obj\Debug\Biblioteca.csproj.GenerateResource.Cache
+c:\users\william\documents\visual studio 2013\Projects\Biblioteca\Biblioteca\obj\Debug\Biblioteca.exe
+c:\users\william\documents\visual studio 2013\Projects\Biblioteca\Biblioteca\obj\Debug\Biblioteca.pdb

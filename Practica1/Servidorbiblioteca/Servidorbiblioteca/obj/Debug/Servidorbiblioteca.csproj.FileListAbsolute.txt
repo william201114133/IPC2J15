@@ -1,0 +1,6 @@
+c:\users\william\documents\visual studio 2013\Projects\Servidorbiblioteca\Servidorbiblioteca\obj\Debug\Servidorbiblioteca.csprojResolveAssemblyReference.cache
+c:\users\william\documents\visual studio 2013\Projects\Servidorbiblioteca\Servidorbiblioteca\bin\Servidorbiblioteca.dll.config
+c:\users\william\documents\visual studio 2013\Projects\Servidorbiblioteca\Servidorbiblioteca\bin\Servidorbiblioteca.dll
+c:\users\william\documents\visual studio 2013\Projects\Servidorbiblioteca\Servidorbiblioteca\bin\Servidorbiblioteca.pdb
+c:\users\william\documents\visual studio 2013\Projects\Servidorbiblioteca\Servidorbiblioteca\obj\Debug\Servidorbiblioteca.dll
+c:\users\william\documents\visual studio 2013\Projects\Servidorbiblioteca\Servidorbiblioteca\obj\Debug\Servidorbiblioteca.pdb
