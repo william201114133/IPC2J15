@@ -1,0 +1,6 @@
+c:\users\william\documents\visual studio 2013\Projects\QuetzalExpress\QuetzalExpress\bin\QuetzalExpress.dll.config
+c:\users\william\documents\visual studio 2013\Projects\QuetzalExpress\QuetzalExpress\bin\QuetzalExpress.dll
+c:\users\william\documents\visual studio 2013\Projects\QuetzalExpress\QuetzalExpress\bin\QuetzalExpress.pdb
+c:\users\william\documents\visual studio 2013\Projects\QuetzalExpress\QuetzalExpress\obj\Debug\QuetzalExpress.csprojResolveAssemblyReference.cache
+c:\users\william\documents\visual studio 2013\Projects\QuetzalExpress\QuetzalExpress\obj\Debug\QuetzalExpress.dll
+c:\users\william\documents\visual studio 2013\Projects\QuetzalExpress\QuetzalExpress\obj\Debug\QuetzalExpress.pdb
