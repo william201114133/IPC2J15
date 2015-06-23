@@ -15,9 +15,10 @@ idEmpleado int identity (1,1),
 apellidos nvarchar(50),
 nombres nvarchar (50),
 sueldo int,
-sucursal int,
-departamento int,
+idsucursal int,
+iddepartamento int,
 puesto nvarchar(50),
+contraseña nvarchar(30),
 constraint pk_empleado primary key (idEmpleado)
 )
 
@@ -32,6 +33,8 @@ direccion nvarchar(50),
 tajerta int,
 casilla int,
 idSucursal int,
+estado nvarchar(30),
+contraseña nvarchar(30),
 constraint pk_cliente primary key (idCliente)
 )
 
@@ -85,21 +88,13 @@ pais nvarchar(30),
 direccion nvarchar(30),
 telefono int,
 capacidad int,
+constraint pk_Sucursal primary key (idSucursal)
 )
 
 Create Table Departamento(
 idDepartamento int identity(1,1),
 nombre nvarchar(30),
 constraint pk_depto primary key (idDepartamento)
-)
-
-Create Table AsignarEmpleado(
-idAsignacion int identity(1,1),
-idSucursal int,
-idSede int,
-idEmpleado int,
-puesto nvarchar(30),
-constraint pk_asignarempleado primary key (idAsignacion)
 )
 
 Create Table Envio(
@@ -134,6 +129,12 @@ motivo int,
 constraint pk_devolucion primary key (idDevolucion)
 )
 
+alter table Empleado add constraint fk_Empleado_idsucursal foreign key (idsucursal) references Sucursal(idSucursal);
+alter table Empleado add constraint fk_Empleado_iddepartamento foreign key (iddepartamento) references Departamento(idDepartamento);
+alter table Cliente add constraint fk_Cliente_idSucursal foreign key (idSucursal) references Sucursal(idSucursal);
+alter table Envio add constraint fk_Envio_idSucursal foreign key (idSucursal) references Sucursal(idSucursal);
+alter table Envio add constraint fk_Envio_idLote foreign key (idLote) references Lote(idLote);
+alter table Paquete add constraint fk_Paquete_idLote foreign key (idLote) references Lote(idLote);
 alter table Devoulucion add constraint fk_Devolucion_idCliente foreign key (idCliente) references Cliente(idCliente);
 alter table Devoulucion add constraint fk_Devolucion_idPaquete foreign key (idPaquete) references Paquete(idPaquete);
 alter table Factura add constraint fk_Factura_idCliente foreign key (idCliente) references Cliente(idCliente);
