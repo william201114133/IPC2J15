@@ -221,6 +221,45 @@ namespace WebService1
                 return false;
             }
         }
+        [WebMethod]
+        public Boolean VerificarSucursal(string sucur)
+        {
+            SqlConnection con = new SqlConnection("Data Source=WILLIAM-PC;Initial Catalog=QuetzalExpress;Integrated Security=True");
+            SqlCommand comando;
+            String query;
+
+            try
+            {
+
+                query = "SELECT * FROM Sucursal WHERE pais = '" + sucur + "'";
+
+                DataTable dt = new DataTable();
+                comando = new SqlCommand(query, con);
+                comando.Parameters.AddWithValue("@pais", sucur);
+                SqlDataAdapter adap = new SqlDataAdapter(comando);
+                adap.Fill(dt);
+                DataRow row = dt.Rows[0];
+                sucursal = Convert.ToInt32(row["idSucursal"]);
+                con.Open();
+                Object ob = comando.ExecuteScalar();
+
+                if (ob == null)
+                {
+                    con.Close();
+                    return false;
+                }
+                else
+                {
+                    con.Close();
+                    return true;
+                }
+
+            }
+            catch
+            {
+                return false;
+            }
+        }
 
     }
 }
